@@ -1,5 +1,5 @@
 console.log('Advanced debugging example running.')
-debugger
+// debugger
 
 // first, define the function.
 function goodPractices() {
@@ -16,7 +16,7 @@ function goodPractices() {
 
       // what is 'data' at each loop through out this block?
       // when will the following line of code work and when will it break?
-      let data = teamObj.player
+      let data = teamObj.players
       for (let key in data) {
         debugger
       }
@@ -25,4 +25,6 @@ function goodPractices() {
 }
 
 // then, call the function so it runs!
-goodPractices()
+// goodPractices()
+
+// console.log(numPointsScored("Jeff Adrien"))
