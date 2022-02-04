@@ -12,7 +12,7 @@ volunteered to keep stats at the game.
 
 Fork and clone this lab and open the `index.html` file in the browser. You'll be
 coding your solution in `src/00-objectball.js`. There are no tests for this lab
-&mdash; you'll need to use the browser's developer tools to check your work.
+— you'll need to use the browser's developer tools to check your work.
 There are instructions throughout this lesson on how to use `console.log` and
 debugger to test your code, so let's get started!
 
@@ -115,7 +115,7 @@ the name of the home team, `"Brooklyn Nets"`. We can call the `gameHash`
 function inside of our `homeTeamName` function and operate on the object:
 
 ```js
-function homeTeamName()
+function homeTeamName() {
   let object = gameObject()
   return object['home']['teamName']
 }
@@ -131,7 +131,7 @@ results from functions into variables because it makes it easier to debug our
 programs later. One-liners are not always better!
 
 ```js
-function homeTeamName()
+function homeTeamName(){
   return gameObject()['home']['teamName']
 }
 
